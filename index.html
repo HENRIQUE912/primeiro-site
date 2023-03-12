@@ -81,10 +81,26 @@
                  <a href="img-link donwload/game castlevania.jpg">Foto da game play do jogo</a>
  
            </ol>
-           <img src="imagens/Castlevania-pequena.jpg" >
+
+           <picture>
+            <img src="imagens/Castlevania-grande.jpg" alt="Castlevania">
+            <img srcset="Castlevania-grande.jpg 320w,
+             Castlevania-grande.jpg 480w,
+             elva-fairy-800w.jpg 800w"
+     sizes="(max-width: 320px) 280px,
+            (max-width: 480px) 440px,
+            800px"
+     src="elva-fairy-800w.jpg" alt="Elva dressed as a fairy">
+
+           <!--  <source media="(max-windth: 750px)" srcset="foto-p.jpg"type"image/jpg">
+            <img src="imagens/Castlevania-media.jpg"alt="A imagem flexivel funciona" -->
+
+           </picture>
+           imagens do jogo em foma de fotos
+           <!-- <img src="imagens/Castlevania-pequena.jpg" >
            <img src="imagens/Castlevania-media.jpg" >
            <img src="imagens/Castlevania-grande.jpg" >
-
+ -->
          
          
  </p>
